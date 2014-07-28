@@ -41,7 +41,6 @@ class Hanoi
     until ['first', 'second', 'third', 'exit'].include? input
       puts "Please enter a valid option [first, second or third]: "
       input = gets.chop!
-      input
     end
     abort('Exiting...') if input == 'exit'
 
